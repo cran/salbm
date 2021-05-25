@@ -1,0 +1,19 @@
+importFrom("stats", "aggregate", "quantile", "sd", "t.test", "var", "qnorm", "as.formula", "weighted.mean","predict","runif")
+importFrom("randomForestSRC", "rfsrc", "predict.rfsrc")
+importFrom("utils", "modifyList")
+
+S3method("addSamples","salbm")
+S3method("addSamples","salbmM")
+
+export(salbm)
+export(salbmM)
+export(addSamples)
+export(salbmCombine)
+
+export(getEYnomo)
+export(getCI)
+export(getXCI)
+
+export(PrepMissingPattern)
+export(PrepDescribeTrt)
+export(PrepInferenceAssumption)
